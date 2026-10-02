@@ -17,10 +17,23 @@
   --font-sans: "Inter Tight", system-ui, sans-serif;
   /* heading font, same family so nothing breaks */
   --font-display: "Inter Tight", system-ui, sans-serif;
+  --color-night: #17181c;
 }
 
 /* make in-page links like #about scroll smoothly */
 html {
   /* smooth scrolling for the scroll down link */
   scroll-behavior: smooth;
+}
+
+/* progress line under the industry tabs: grows from 0 to the full width */
+@keyframes industry-progress {
+  /* start with no width */
+  from {
+    width: 0;
+  }
+  /* end at the full width of the divider */
+  to {
+    width: 100%;
+  }
 }

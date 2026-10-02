@@ -6,6 +6,9 @@ import About from './sections/About'
 import Capabilities from './sections/Capabilitties'
 // import the hero from the sections folder
 import Hero from './sections/Hero'
+import Industries from './sections/Industries'
+import Products from './sections/Products'
+import WhyUs from './sections/WhyUs'
 
 // App stacks the page in design order
 const App = () => (
@@ -19,6 +22,9 @@ const App = () => (
       <Hero />
       <About/>
       <Capabilities/>
+      <Products/>
+      <WhyUs/>
+      <Industries/>
     </main>
     {/* floating chat button, stays fixed while scrolling */}
     <WhatsAppButton />

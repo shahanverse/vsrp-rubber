@@ -10,7 +10,7 @@ const WhatsAppButton = ({ phone = '910000000000' }) => (
     // the icon has no text, so give screen readers a label
     aria-label="Chat on WhatsApp"
     // 48px on phones and 60px from 640px up, fixed bottom right; desktop offsets match Figma
-    className="fixed bottom-5 right-5 z-30 grid h-12 w-12 place-items-center rounded-full bg-white/15 backdrop-blur transition hover:scale-105 focus-visible:outline-2 focus-visible:outline-white sm:bottom-6 sm:right-6 sm:h-[60px] sm:w-[60px] lg:bottom-[60px] lg:right-[22px]"
+    className="fixed bottom-5 right-5 z-30 grid h-12 w-12 place-items-center rounded-full bg-body/15 backdrop-blur transition hover:scale-105 focus-visible:outline-2 focus-visible:outline-white sm:bottom-6 sm:right-6 sm:h-[60px] sm:w-[60px] lg:bottom-[60px] lg:right-[22px]"
   >
     {/* inline SVG so no image file is needed; WhatsApp green */}
     <svg
