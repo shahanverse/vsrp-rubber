@@ -1,3 +1,4 @@
+import ScrollDown from '../components/ScrollDown'
 // import the React hooks we need for the video
 import { useEffect, useRef } from 'react'
 // import the reusable button and arrow
@@ -115,23 +116,7 @@ const Hero = () => {
       </div>
 
       {/* scroll down link pinned bottom left; offsets grow with the screen */}
-      <a
-        // scrolls to the next section
-        href="#about"
-        // bottom-left position, 8px gap, 14px uppercase semi bold text
-        className="absolute bottom-8 left-5 flex items-center gap-2 text-sm font-semibold uppercase focus-visible:outline-2 focus-visible:outline-white sm:bottom-10 sm:left-8 lg:bottom-[72px] lg:left-12 xl:left-20"
-      >
-        {/* 32px circle with a dashed border holding a down chevron */}
-        <span className="grid h-8 w-8 place-items-center rounded-full border border-dashed border-white/70">
-          {/* down chevron drawn as an SVG */}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
-            {/* the chevron path */}
-            <path d="m6 9 6 6 6-6" />
-          </svg>
-        </span>
-        {/* link text */}
-        Scroll down
-      </a>
+       <ScrollDown href="#about" className="absolute bottom-8 left-5 text-white sm:bottom-10 sm:left-8 lg:bottom-[72px] lg:left-12 xl:left-20" />
     </section>
   )
 }

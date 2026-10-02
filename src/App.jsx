@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 // import the floating WhatsApp button
 import WhatsAppButton from './components/WhatsAppButton'
 import About from './sections/About'
+import Capabilities from './sections/Capabilitties'
 // import the hero from the sections folder
 import Hero from './sections/Hero'
 
@@ -17,6 +18,7 @@ const App = () => (
       {/* the hero section; later sections (About, Capabilities, ...) go below it */}
       <Hero />
       <About/>
+      <Capabilities/>
     </main>
     {/* floating chat button, stays fixed while scrolling */}
     <WhatsAppButton />
