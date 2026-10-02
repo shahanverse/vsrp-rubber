@@ -1,0 +1,20 @@
+/* load the free Inter Tight font from Google (this import must stay on the first lines) */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap");
+/* load all of Tailwind's base styles and utility classes */
+@import "tailwindcss";
+
+/* design tokens: Tailwind turns each one into utility classes */
+@theme {
+  /* creates bg-brand, text-brand etc. (replace with the exact Figma hex) */
+  --color-brand: #e8552d;
+  /* default font for the whole site */
+  --font-sans: "Inter Tight", system-ui, sans-serif;
+  /* heading font, same family so nothing breaks */
+  --font-display: "Inter Tight", system-ui, sans-serif;
+}
+
+/* make in-page links like #about scroll smoothly */
+html {
+  /* smooth scrolling for the scroll down link */
+  scroll-behavior: smooth;
+}
