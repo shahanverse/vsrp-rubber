@@ -7,6 +7,7 @@ const styles = {
   primary: { wrapper: 'bg-brand text-white', circle: 'bg-white text-brand' },
   // translucent grey pill with a soft edge and an orange circle (DISCUSS YOUR PROJECT)
   glass: { wrapper: 'bg-white/20 text-white ring-1 ring-white/20 backdrop-blur-sm', circle: 'bg-brand text-white' },
+   light: { wrapper: 'bg-black/[0.08] text-ink ring-1 ring-black/5', circle: 'bg-brand text-white' },
 }
 
 // shared animation classes: 300ms smooth slide, switched off for people who prefer reduced motion

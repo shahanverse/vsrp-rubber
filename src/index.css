@@ -5,6 +5,12 @@
 
 /* design tokens: Tailwind turns each one into utility classes */
 @theme {
+    /* the pale blue-grey background of the About section */
+  --color-surface: #eff3f6;
+  /* near-black used for headings and numbers on light backgrounds */
+  --color-ink: #1f1f1f;
+  /* softer dark grey used for paragraph text on light backgrounds */
+  --color-body: #4b4b4b;
   /* creates bg-brand, text-brand etc. (replace with the exact Figma hex) */
   --color-brand: #e8552d;
   /* default font for the whole site */
