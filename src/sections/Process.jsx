@@ -261,7 +261,7 @@ const Process = () => {
             {/* scroll down link pinned to the bottom right of the column, dark version; change the href to the next section */}
             <div className="flex justify-end">
               {/* shared scroll down link, colored by the parent text color */}
-              <ScrollDown href="#faq" className="text-ink" />
+              <ScrollDown href="#projects" className="text-ink" />
             </div>
           </div>
         </div>

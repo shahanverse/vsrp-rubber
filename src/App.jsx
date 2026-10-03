@@ -4,11 +4,14 @@ import Navbar from './components/Navbar'
 import WhatsAppButton from './components/WhatsAppButton'
 import About from './sections/About'
 import Capabilities from './sections/Capabilitties'
+import FAQ from './sections/FAQ'
 // import the hero from the sections folder
 import Hero from './sections/Hero'
 import Industries from './sections/Industries'
+import Insights from './sections/Insights'
 import Process from './sections/Process'
 import Products from './sections/Products'
+import Projects from './sections/Projects'
 import WhyUs from './sections/WhyUs'
 
 // App stacks the page in design order
@@ -27,6 +30,9 @@ const App = () => (
       <WhyUs/>
       <Industries/>
       <Process/>
+      <Projects/>
+      <FAQ/>
+      <Insights/>
     </main>
     {/* floating chat button, stays fixed while scrolling */}
     <WhatsAppButton />
