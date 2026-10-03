@@ -37,3 +37,14 @@ html {
     width: 100%;
   }
 }
+/* timeline line between the process steps: grows from 0 to the full height */
+@keyframes process-progress {
+  /* start with no height */
+  from {
+    height: 0;
+  }
+  /* end at the full height of the gap */
+  to {
+    height: 100%;
+  }
+}

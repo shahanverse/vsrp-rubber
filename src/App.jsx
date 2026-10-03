@@ -7,6 +7,7 @@ import Capabilities from './sections/Capabilitties'
 // import the hero from the sections folder
 import Hero from './sections/Hero'
 import Industries from './sections/Industries'
+import Process from './sections/Process'
 import Products from './sections/Products'
 import WhyUs from './sections/WhyUs'
 
@@ -25,6 +26,7 @@ const App = () => (
       <Products/>
       <WhyUs/>
       <Industries/>
+      <Process/>
     </main>
     {/* floating chat button, stays fixed while scrolling */}
     <WhatsAppButton />
